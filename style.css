@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    background-color: #efe9e7;
+}
+
+.logo {
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+
+    color: #efe9e7;
+    padding: 15px 0;
+    flex-shrink: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #52154e;
+}
+
+main {
+    padding: 30px 0;
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.choices .choice {
+    font-size: 50px;
+    width: 200px;
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+    background-color: #dae0f2;
+    box-shadow: 0px 2px 3px #b2b7c6;
+}
+
+.choices .player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.buttons button {
+    height: 150px;
+    width: 150px;
+
+    background-color: #f9cff2;
+    box-shadow: 0 2px 3px #a88ba3;
+    text-shadow: 0 1px 3px #000;
+
+    border: none;
+    border-radius: 10px;
+
+    font-size: 50px;
+}
+
+.buttons button:hover {
+    box-shadow: 0 3px 3px #a88ba3;
+    text-shadow: 0 2px 3px #000;
+}
+
+.buttons button:active {
+    box-shadow: 0 1px 3px #a88ba3;
+    text-shadow: 0 1px 3px #000;
+}
+
+.restart {
+    font-size: 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #f9cff2;
+    box-shadow: 0 2px 3px #a88ba3;
+
+    border: none;
+    border-radius: 6px;
+    padding: 8px 10px;
+
+}
+
+.restart:hover {
+    box-shadow: 0 3px 3px #a88ba3;
+}
+
+.restart:active {
+    box-shadow: 0 1px 3px #a88ba3;
+}
